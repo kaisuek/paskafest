@@ -3,4 +3,44 @@ layout: layouts/base.njk
 section: home
 ---
 
-{{ layoutContent | safe }}
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+</head>
+<body>
+
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+
+  <section id="hero">
+    <h2>{{ hero_title }}</h2>
+    <p>{{ hero_text }}</p>
+  </section>
+
+  <section id="artists">
+    <h2>Esiintyjät</h2>
+    <p>{{ artists }}</p>
+  </section>
+
+  <section id="location">
+    <h2>Sijainti</h2>
+    <p>{{ location }}</p>
+  </section>
+
+  <section id="info">
+    <h2>Seuraa meitä</h2>
+    <p>
+      <a href="{{ instagram_url }}" target="_blank">Instagram</a><br>
+      <a href="{{ telegram_url }}" target="_blank">Telegram</a>
+    </p>
+  </section>
+
+  {# Optionally render extra markdown content, if any #}
+  {{ layoutContent | safe }}
+
+</body>
+</html>
+
