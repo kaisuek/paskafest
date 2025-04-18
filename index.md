@@ -1,5 +1,5 @@
 ---
-title: "Paskafest 2025"
+title: "Paskafest"
 hero_title: "Lisää paskaa Helsinkiin
 hero_text: "Tervetuloa Paskafesteille!"
 artists: "Kaisu and the vappupillis, ja paljon muuta paskaa"
