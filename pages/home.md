@@ -1,6 +1,6 @@
 ---
 title: "Paskafest"
-hero_title: "Lisää paskaa Helsinkiin"
+hero_title: "Tervetulloo Paskafesteille 9.8.2025 vittu jee"
 hero_text: "Paskafest is the best!"
 artists: "Kaisu and the vappupillis, muuta ihanaa paskaa, ja lisää ihanaa paskaa"
 location: "Viikin paska-allas"
