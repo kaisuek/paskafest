@@ -1,4 +1,5 @@
 ---
+layout: "layouts/home.njk"
 title: "Paskafest"
 hero_title: "Tervetulloo Paskafesteille 9.8.2025 vittu jee"
 hero_text: "Paskafest is the best!"
