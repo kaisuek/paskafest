@@ -1,6 +1,6 @@
 ---
 title: "Paskafest"
-hero_title: "Kesän kovin juttu"
+hero_title: "Lisää paskaa Helsinkiin"
 hero_text: "Tervetuloa Paskafestiin!"
 artists: "Paskapää, Jytäjyrä, DJ Rytmihäiriö"
 location: "Salo, Suomi"
