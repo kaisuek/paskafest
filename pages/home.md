@@ -1,5 +1,4 @@
 ---
-layout: "layouts/home.njk"
 title: "Paskafest"
 hero_title: "Lisää paskaa Helsinkiin"
 hero_text: "Paskafest is the best!"
