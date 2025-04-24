@@ -32,6 +32,24 @@ code {
 	line-height: 1.5;
 }
 
+/*Herokuva*/
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 600px; /* Adjust if needed */
+  object-fit: cover;
+}
+
+
 a[href],
 a[href]:visited {
 	color: var(--primary);
