@@ -6,5 +6,5 @@ hero_text: "Paskafest tulee jälleen, oletko valmis?"
 artists: "Kaisu and the vappupillis, muuta ihanaa paskaa, ja lisää ihanaa paskaa"
 location: "Viikin paska-allas"
 instagram_url: "https://instagram.com/paskafest"
-telegram_url: "https://t.me/paskafest"
+telegram_url: "https://t.me/paskafest" (vielä tekeillä)
 ------
