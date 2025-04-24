@@ -1,5 +1,5 @@
 ---
-title: "Paskafest"
+title: "Tää ei oo homesivu"
 hero_title: "Tervetulloo Paskafesteille 9.8.2025 xxx"
 hero_text: "Paskafest is the best!"
 artists: "Kaisu and the vappupillis, muuta ihanaa paskaa, ja lisää ihanaa paskaa"
