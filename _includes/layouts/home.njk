@@ -48,15 +48,16 @@ section: home
 <script>
   const gifContainer = document.getElementById("gif-line");
   const gifSize = 50; // px
-  const screenWidth = window.innerWidth;
+  const screenWidth = window.innerWidth - 50; // give it some room for padding/margins
   const gifsPerRow = Math.floor(screenWidth / gifSize);
 
   for (let i = 0; i < gifsPerRow; i++) {
     const gif = document.createElement("img");
     gif.src = "static/img/paska.GIF";
-    gif.alt = "Paskaa";
+    gif.alt = "Paska gif";
     gif.style.width = gifSize + "px";
     gif.style.height = gifSize + "px";
+    gif.style.objectFit = "cover";
     gifContainer.appendChild(gif);
   }
 </script>
