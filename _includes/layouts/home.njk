@@ -44,6 +44,24 @@ section: home
     </p>
   </section>
 
+<section id="gif-line" style="display: flex; justify-content: center; flex-wrap: wrap;"></section>
+<script>
+  const gifContainer = document.getElementById("gif-line");
+  const gifSize = 20; // px
+  const screenWidth = window.innerWidth;
+  const gifsPerRow = Math.floor(screenWidth / gifSize);
+
+  for (let i = 0; i < gifsPerRow; i++) {
+    const gif = document.createElement("img");
+    gif.src = "static/img/paska.GIF";
+    gif.alt = "Paskaa";
+    gif.style.width = gifSize + "px";
+    gif.style.height = gifSize + "px";
+    gifContainer.appendChild(gif);
+  }
+</script>
+
+
   {# Optionally render extra markdown content, if any #}
   {{ layoutContent | safe }}
 
