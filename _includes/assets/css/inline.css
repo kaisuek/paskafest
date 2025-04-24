@@ -45,7 +45,7 @@ code {
   width: 100%;
   height: auto;
   display: block;
-  max-height: 600px; /* Adjust if needed */
+  max-height: 480px; /* Adjust if needed */
   object-fit: cover;
 }
 
