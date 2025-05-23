@@ -6,7 +6,7 @@ body {
 
 /* Otsikko 1 (h1) */
 h1 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'Marker Felt', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
   color: #4B0082; /* tumma violetti */
   font-size: 3em;
   text-align: center;
@@ -22,7 +22,7 @@ h1 {
 /* Otsikko 2 (h2) */
 
 h2 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'Marker Felt', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
   color: #4B0082;
   text-align: center;
   font-size: 2em;
@@ -32,9 +32,9 @@ h2 {
 
 /* Leipäteksti (p) */
 p {
-  font-family: 'Chalkboard', 'Marker Felt', cursive, sans-serif;
-  font-size: 1em;
-  line-height: 1em;
+  font-family: 'Marker Felt', cursive, sans-serif;
+  font-size: 2em;
+  line-height: 2em;
   text-align: center;
   color: #222;
   margin-bottom: 1em;
