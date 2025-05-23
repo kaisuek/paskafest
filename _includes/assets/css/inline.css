@@ -10,10 +10,10 @@ h1 {
 /* teksti otsikon alla */
 
 .teksti {
-  font-family: 'Fredoka One', cursive;
-  font-size: 32px;
-  color: #ff00aa;
-  text-align: center;
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 32px !important;
+  color: #ff00aa !important;
+  text-align: center !important;
 }
 
 
@@ -22,6 +22,7 @@ h1 {
 h2 {
   font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'Marker Felt', cursive, sans-serif;
   color: #4B0082;
+  text-align: center;
   font-size: 1.8em;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -31,7 +32,8 @@ h2 {
 p {
   font-family: 'Chalkboard', 'Marker Felt', cursive, sans-serif;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 2;
+  text-align: center;
   color: #222;
   margin-bottom: 1em;
 }
