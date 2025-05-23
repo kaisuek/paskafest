@@ -17,13 +17,14 @@ h1 {
 }
 
 
-* Otsikko 2 (h2) */
+/* Otsikko 2 (h2) */
+
 h2 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'Marker Felt', cursive, sans-serif !important;
-  color: #4B0082 !important;
-  font-size: 1.8em !important;
-  margin-top: 1.5em !important;
-  margin-bottom: 0.5em !important;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'Marker Felt', cursive, sans-serif;
+  color: #4B0082;
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 /* Leipäteksti (p) */
