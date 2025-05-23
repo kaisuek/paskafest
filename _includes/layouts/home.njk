@@ -31,10 +31,53 @@ section: home
     <p>{{ artists }}</p>
   </section>
 
-  <section id="location">
-    <h2>Sijaintina Viikin paska-allas</h2>
-    <p>{{ location }}</p>
-  </section>
+  <section id="location" style="position: relative; overflow: hidden;">
+  <h2>Sijaintina Viikin paska-allas</h2>
+  <p>{{ location }}</p>
+
+  <!-- Google Maps iframe -->
+  <div style="position: relative; z-index: 1;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1347.8864757105766!2d25.030884428488246!3d60.217556110892595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfi!2sfi!4v1747999812052!5m2!1sfi!2sfi"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Emoji container -->
+  <div id="poop-emojis" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;"></div>
+
+  <script>
+    function createPoopEmoji() {
+      const emoji = document.createElement('div');
+      emoji.textContent = '💩';
+      emoji.style.position = 'absolute';
+      emoji.style.left = Math.random() * 100 + '%';
+      emoji.style.bottom = '-30px';
+      emoji.style.fontSize = '24px';
+      emoji.style.opacity = '0.8';
+      emoji.style.animation = `floatUp ${3 + Math.random() * 2}s linear forwards`;
+      document.getElementById('poop-emojis').appendChild(emoji);
+
+      setTimeout(() => emoji.remove(), 6000); // Clean up
+    }
+
+    setInterval(createPoopEmoji, 500); // Spawn one every 0.5 sec
+  </script>
+
+  <style>
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</section>
+
 
   <section id="info">
     <h2>Uutisointi</h2>
