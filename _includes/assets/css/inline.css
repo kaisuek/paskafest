@@ -8,7 +8,7 @@ h1 {
 }
 
 * Otsikko 2 (h2) */
-h2 {
+section h2 {
   font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'Marker Felt', cursive, sans-serif;
   color: #4B0082;
   font-size: 1.8em;
