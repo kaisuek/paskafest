@@ -145,13 +145,13 @@ p {
 .artist h3 {
   font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
   color: #4B0082;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 0.5rem 0;
 }
 
 /* Esittelyteksti */
 .artist p {
-  font-size: 16px;
+  font-size: 1.5em;
   color: #333;
   margin-bottom: 0.5rem;
 }
@@ -160,7 +160,7 @@ p {
 .artist-links a {
   font-family: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.5em;
   margin: 0 0.25rem;
   text-decoration: none;
   color: #4B0082;
