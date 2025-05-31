@@ -134,3 +134,23 @@ p {
   background-color: #6a0dad;
 }
 
+.artist-gallery-wrapper {
+  padding: 2rem 1rem;
+}
+
+.artist-gallery-wrapper h2 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #4B0082;
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.artist-gallery-wrapper p {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
