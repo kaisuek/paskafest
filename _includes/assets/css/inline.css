@@ -79,6 +79,11 @@ p {
 /* Artistigalleria*/
 
 /* Galleriaosan ulkoasu */
+
+.artist-gallery-container {
+  position: relative;
+}
+
 .artist-gallery-wrapper {
   padding: 2rem 1rem;
 }
@@ -94,6 +99,7 @@ p {
 
 /* Itse galleria: vaakarullaus */
 .artist-gallery {
+  overflow: hidden;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
@@ -103,18 +109,28 @@ p {
 /* Rivi jossa kortit */
 .artist-track {
   display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
   gap: 1rem;
+  padding: 1rem;
+  -webkit-overflow-scrolling: touch; /* iOS smooth scroll */
+  scrollbar-width: none; /* Firefox */
   padding-bottom: 1rem;
 }
 
+.artist-track::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
 /* Yksi artistikortti */
+
 .artist {
-  flex: 0 0 auto;
-  width: 400px;
-  background-color: #f4f4f4;
-  border-radius: 4px;
+  min-width: 400px;
+  flex-shrink: 0;
+  background: #fff;
   padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
 
