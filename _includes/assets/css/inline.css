@@ -34,8 +34,8 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-/* Leipäteksti (p) ja linkit */
-p, a {
+/* Leipäteksti (p) */
+p {
   font-family: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1.5em;
