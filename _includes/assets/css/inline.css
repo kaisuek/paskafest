@@ -154,3 +154,40 @@ p {
 .artist-links a:hover {
   border-bottom-color: #4B0082;
 }
+
+.artist-gallery-container {
+  position: relative;
+}
+
+.artist-gallery {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Nuolet */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #4B0082;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.scroll-btn:hover {
+  opacity: 1;
+}
+
+.scroll-btn.left {
+  left: 0.25rem;
+}
+
+.scroll-btn.right {
+  right: 0.25rem;
+}
