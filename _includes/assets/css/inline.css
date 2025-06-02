@@ -146,14 +146,14 @@ p {
   font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
   color: #4B0082;
   font-size: 1.5em;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 /* Esittelyteksti */
 .artist p {
   font-size: 1.5em;
   color: #333;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   max-width: 400px;
   margin: 0 auto; /* keskittää tekstin kortissa */
   word-wrap: break-word;
