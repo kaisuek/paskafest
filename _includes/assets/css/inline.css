@@ -156,7 +156,9 @@ p {
   margin-bottom: 0.5rem;
   max-width: 400px;
   margin: 0 auto; /* keskittää tekstin kortissa */
-}
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 /* Linkit */
