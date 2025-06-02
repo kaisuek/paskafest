@@ -10,7 +10,7 @@ body {
 
 /* Otsikko 1 (h1) */
 h1 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082; /* tumma violetti */
   font-size: 3em;
   text-align: center;
@@ -26,7 +26,7 @@ h1 {
 /* Otsikko 2 (h2) */
 
 h2 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082;
   text-align: center;
   font-size: 2em;
@@ -93,7 +93,7 @@ p {
 
 /* Otsikko ja johdantoteksti */
 .artist-gallery-wrapper h2 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082;
   font-size: 2em;
   margin-bottom: 0.5rem;
@@ -148,7 +148,7 @@ p {
 
 /* Bändin nimi */
 .artist h3 {
-  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082;
   font-size: 1.5em;
   margin: 1.5rem 0;
