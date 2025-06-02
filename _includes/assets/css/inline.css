@@ -154,6 +154,9 @@ p {
   font-size: 1.5em;
   color: #333;
   margin-bottom: 0.5rem;
+  max-width: 400px;
+  margin: 0 auto; /* keskittää tekstin kortissa */
+}
 }
 
 /* Linkit */
