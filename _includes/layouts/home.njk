@@ -142,7 +142,7 @@ section: home
       emoji.style.position = 'absolute';
       emoji.style.left = Math.random() * 100 + '%';
       emoji.style.bottom = '-30px';
-      emoji.style.fontSize = '150px';
+      emoji.style.fontSize = '100px';
       emoji.style.opacity = '1';
       emoji.style.animation = `floatUp ${3 + Math.random() * 2}s linear forwards`;
       document.getElementById('poop-emojis').appendChild(emoji);
@@ -179,7 +179,7 @@ section: home
 <section id="gif-line" style="display: flex; justify-content: center; flex-wrap: wrap;"></section>
 <script>
   const gifContainer = document.getElementById("gif-line");
-  const gifSize = 150; // px
+  const gifSize = 100; // px
   const screenWidth = window.innerWidth - 50; // give it some room for padding/margins
   const gifsPerRow = Math.floor(screenWidth / gifSize);
 
