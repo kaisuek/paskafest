@@ -8,6 +8,23 @@ body {
   background-color: #f2f238;
 }
 
+/* Hero */
+
+.hero {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hero-logo {
+  max-height: 100%;
+  max-width: 80%;
+  height: auto;
+}
+
+
 /* Otsikko 1 (h1) */
 h1 {
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
