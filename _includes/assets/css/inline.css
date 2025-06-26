@@ -82,6 +82,8 @@ p {
   top: -50px;
   font-size: 40px;
   animation: fall linear infinite;
+  transition: transform 0.1s linear;
+  will-change: transform;
   opacity: 0.8;
 }
 
@@ -95,6 +97,18 @@ p {
     opacity: 0;
   }
 }
+
+/* Kärpänen*/
+
+    .fly {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/73/Fly_icon_01.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      pointer-events: none;
+    }
 
 /* Artistigalleria*/
 
