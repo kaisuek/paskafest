@@ -14,12 +14,6 @@ section: home
 </head>
 <body>
 
-<!-- Kärpäset -->
-  <div id="flies"></div>
-
-  <!-- Kakkaemojit -->
-  <div id="poops"></div>
-
 <section class="hero">
   <img src="static/img/paskafest2025-karpanen.png" alt="Paskafest 2025" class="hero-logo">
 </section>
@@ -273,90 +267,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
-
-<script>
-    // Kärpäset seuraa hiirtä/sormea
-    const flyCount = 10;
-    const flies = [];
-    const flyContainer = document.getElementById('flies');
-    let mouse = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-
-    for (let i = 0; i < flyCount; i++) {
-      const f = document.createElement('div');
-      f.className = 'fly';
-      flyContainer.appendChild(f);
-      flies.push({ el: f, x: mouse.x, y: mouse.y });
-    }
-
-    window.addEventListener('mousemove', e => {
-      mouse.x = e.clientX;
-      mouse.y = e.clientY;
-    });
-    window.addEventListener('touchmove', e => {
-      if (e.touches.length > 0) {
-        mouse.x = e.touches[0].clientX;
-        mouse.y = e.touches[0].clientY;
-      }
-    });
-
-    function animateFlies() {
-      flies.forEach((fly, i) => {
-        fly.x += (mouse.x - fly.x) * 0.05;
-        fly.y += (mouse.y - fly.y) * 0.05;
-        fly.el.style.transform = `translate(${fly.x}px, ${fly.y}px)`;
-      });
-      requestAnimationFrame(animateFlies);
-    }
-    animateFlies();
-
-    // 💩-emojit väistävät hiirtä
-    const poopCount = 5;
-    const poopContainer = document.getElementById('poops');
-    const poops = [];
-
-    for (let i = 0; i < poopCount; i++) {
-      const p = document.createElement('div');
-      p.className = 'poop';
-      p.innerText = '💩';
-      p.style.left = `${Math.random() * window.innerWidth}px`;
-      p.style.top = `${Math.random() * window.innerHeight}px`;
-      poopContainer.appendChild(p);
-      poops.push({ el: p, vx: 0, vy: 0 });
-    }
-
-    function repelPoop() {
-      poops.forEach(poop => {
-        const rect = poop.el.getBoundingClientRect();
-        const dx = rect.left - mouse.x;
-        const dy = rect.top - mouse.y;
-        const dist = Math.sqrt(dx*dx + dy*dy);
-        const force = dist < 150 ? (150 - dist) / 5 : 0;
-        const angle = Math.atan2(dy, dx);
-
-        poop.vx += Math.cos(angle) * force;
-        poop.vy += Math.sin(angle) * force;
-
-        // Damping
-        poop.vx *= 0.9;
-        poop.vy *= 0.9;
-
-        let left = parseFloat(poop.el.style.left);
-        let top = parseFloat(poop.el.style.top);
-
-        left += poop.vx;
-        top += poop.vy;
-
-        // Rajoita näkymään
-        left = Math.max(0, Math.min(window.innerWidth - 32, left));
-        top = Math.max(0, Math.min(window.innerHeight - 32, top));
-
-        poop.el.style.left = `${left}px`;
-        poop.el.style.top = `${top}px`;
-      });
-      requestAnimationFrame(repelPoop);
-    }
-    repelPoop();
-  </script>
 
 
 </body>
