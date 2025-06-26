@@ -164,6 +164,16 @@ p {
   padding: 1rem;
 }
 
+/* Sepon oma */
+
+#seppo {
+  background: linear-gradient(to right, green, white, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Firefox-tuki */
+  font-weight: bold;
+}
+
 /* Esittelyteksti */
 .artist p {
   font-size: 1.5em;
