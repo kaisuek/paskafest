@@ -164,7 +164,7 @@ p {
 /* Yksi artistikortti */
 
 .artist {
-  min-width: 400px;
+  min-width: 600px;
   flex-shrink: 0;
   /*background: #fff, opacity: 0.75;*/
   padding: 1.5rem;
@@ -175,7 +175,7 @@ p {
 
 /* Kuva */
 .artist img {
-  width: 400px;
+  width: 600px;
   height: auto;
   border-radius: 4px;
 }
@@ -184,7 +184,7 @@ p {
 .artist h3 {
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 1.5rem 0;
   max-width: 400px;
   margin: 0 auto; /* keskittää tekstin kortissa */
@@ -209,7 +209,7 @@ p {
   font-size: 1.5em;
   color: #333;
   margin-bottom: 2rem;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto; /* keskittää tekstin kortissa */
   word-wrap: break-word;
   overflow-wrap: break-word;
