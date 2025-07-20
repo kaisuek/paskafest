@@ -11,7 +11,7 @@ body {
 /* Hero */
 
 .hero {
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ body {
 h1 {
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082; /* tumma violetti */
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   margin-bottom: 0.5em;
 }
@@ -49,7 +49,7 @@ h2 {
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
@@ -57,7 +57,7 @@ h2 {
 /* Leipäteksti (p) */
 p {
   font-family: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.5em;
   text-align: center;
   color: #222;
@@ -129,7 +129,7 @@ p {
 .artist-gallery-wrapper h2 {
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', 'Marker Felt', 'fantasy', sans-serif;
   color: #4B0082;
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -151,8 +151,8 @@ p {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 0.5rem;
+  padding: 0.5rem;
   -webkit-overflow-scrolling: touch; /* iOS smooth scroll */
   scrollbar-width: none; /* Firefox */
 }
