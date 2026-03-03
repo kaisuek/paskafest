@@ -1,8 +1,8 @@
 ---
 layout: "layouts/home.njk"
-title: "Paskafest – mielenosoitus"
+title: "Paskafest 2026 – mielenosoitus"
 hero_title: ""
-hero_text: "Kiitos kaikille Paskafest 2025 kävijöille! Jo toista kertaa järjestetty mielenosoitus vaati tänäkin vuonna Lisää ilmaista paskaa Helsinkiin"
+hero_text: "Paskafest 2026, jo kolmatta kertaa järjestettävä mielenosoitus vaatii tänäkin vuonna Lisää ilmaista paskaa Helsinkiin"
 artists: ""
 location: "Viikin paska-allas on nimensä veroisesti altaalla varustettu kasa paskaa Viikissä. Allas on Viikin tutkimustilan peltojen keskellä, Viikintieltä Siilitielle päin. Koska paska-allas on paska-allas, sinne kärrätään Viikin lehmien paskaa säilöntään paskomisen ja peltojen lannoittamisen välillä. Paskafesteillä kunnioitamme paska-altaan ekosysteemiä, joten EI UIMISTA eikä muutakaan kasan häiriköintiä. On hyvä ymmärtää, että paska-altaalla haisee paska. Sopivalla tuulella ei. Takatuulella kyllä."
 instagram_url: "https://instagram.com/paskafest"
