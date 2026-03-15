@@ -1,0 +1,338 @@
+---
+section: home
+---
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="_includes/assets/css/inline.css">
+  <link rel="icon" type="image/svg+xml" href="static/img/logo.png">
+  <title>Paskafest 9.8.2025 Viikin paska-altaalla</title>
+  <description>Kiitos kaikille Paskafest 2025 kävijöille! Jo toista kertaa järjestetty mielenosoitus vaati tänäkin vuonna Lisää ilmaista paskaa Helsinkiin</description>
+</head>
+<body>
+
+<section class="hero">
+  <img src="static/img/paskafest2025-karpanen.png" alt="Paskafest 2025" class="hero-logo">
+</section>
+
+<header id="otsikko" style="text-align: center; width: 100%;">
+  <h1>Paskafest 9.8.2025 Viikin paska-altaalla</h1>
+</header>
+
+  <section id="teksti">
+    <p>{{ hero_text }}</p>
+  </section>
+  <h2>Esiintyjät</h2>
+  <p>{{ artists }}</p>
+
+  <div class="artist-gallery-container">
+    <button class="scroll-btn left" aria-label="Selaa vasemmalle">←</button>
+
+    <div class="artist-gallery" id="artistGallery">
+      <div class="artist-track" id="artistTrack">
+        <!-- Artistikortit -->
+
+    <div class="artist">
+          <h3 id="seppo">TBA</h3>
+          <img 
+            src="static/img/seppo-frigo.jpg" 
+            alt="Seppo Frigo kuva">
+          <p>”Dekin takana mun lemppari DJ <br /> Ja se soittaa meille vain hyvii biisei"</p>
+          <p>©Jukka Poika</p>
+    <div class="artist-links">
+            <a href="#" target="_blank" rel="noreferrer noopener"></a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+        <div class="artist">
+          <h3>Kaisu and the vappupillis</h3>
+          <img 
+            src="static/img/kaisu-and-the-vappupillis.jpg" 
+            alt="Kaisu and the vappupillis kuva">
+          <p>Diesel vetoinen free jazz avant garde kazoo bile orkesteri – älä odota mitään, valmistaudu kaikkeen</p>
+          <div class="artist-links">
+            <a href="https://www.instagram.com/kaisuvappupillis/" target="_blank" rel="noreferrer noopener">Instagram</a>
+            <a href="https://soundcloud.com/kaisu-and-the-vappupillis"target="_blank" rel="noreferrer noopener">Soundcloud</a>
+          </div>
+        </div>
+
+    <div class="artist">
+          <h3>Karhumies</h3>
+          <img 
+            src="static/img/karhumies.jpg" 
+            alt="Karhumies kuva">
+          <p>Karhumies riimeillään ronskeja asioita kaunistava artisti, jonka pop on varustettu göstamaisella kulmalla ja rock taas juicemaisella vinoudella.</p>
+    <div class="artist-links">
+            <a href="#" target="_blank" rel="noreferrer noopener"></a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+    <div class="artist">
+          <h3>Frog the System</h3>
+          <img 
+            src="static/img/frog-the-system.jpg"
+            alt="Frog the System kuva">
+          <p>Helsinki based queer feminist Punx that like crafting, thrifting, and playing music, fastly.</p>
+    <div class="artist-links">
+            <a href="#" target="_blank" rel="noreferrer noopener"></a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+    <div class="artist">
+          <h3>Ocean Days of Eagle</h3>
+          <img 
+            src="static/img/ocean-days-of-eagle.jpg" 
+            alt="Ocean Days of Eagle kuva">
+          <p>Ocean Days of Eagle on nimestään huolimatta Helsingin lähiöistä ponnistava raskaan musiikin yhtye, jonka musiikin tahtiin voi yhtä lailla nyökyttää päätä, pyörittää pittiä tai vaikka tanssia valssia.</p>
+    <div class="artist-links">
+            <a href="#" target="_blank" rel="noreferrer noopener"></a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+        <div class="artist">
+          <h3>fooly (HKI)</h3>
+          <img src="static/img/fooly.jpg" alt="fooly kuva">
+          <p>fooly on vuonna 2020 perustettu nelihenkinen yhtye jonka musiikissa on kuultavissa vaikutteita niin amerikkalaisista surisevista indie-klassikoista kuin brittien shoegaze-perinteestäkin, kotimaisia vaikutteita unohtamatta. Yhtye julkaisi kuuden biisin debyytti-EPnsä "Haven't felt that great lately" kesällä 2023 ja nauhoittaa parhaillaan seuraavaa julkaisuaan.</p>
+          <div class="artist-links">
+            <a href="https://www.instagram.com/foolytheband" target="_blank" rel="noreferrer noopener">Instagram</a>
+            <a href="https://youtu.be/65ueCxkB_g8?si=WAlMYNxfpEvhKxet" target="_blank" rel="noreferrer noopener">Youtube</a>
+    <a href="https://fooly.bandcamp.com/track/sour-winds" target="_blank" rel="noreferrer noopener">Bandcamp</a>
+          </div>
+        </div>
+
+    <div class="artist">
+          <h3>Geräuschzeug</h3>
+          <img 
+            src="static/img/gerauschzeug.jpg"
+            alt="Geräuschzeug-kuva">
+          <p>Yhtye lähestyy musiikin kaltaista ääntä kohinan puolelta. Eksoottisesta Otaniemestä asti roskalavoilta "bonkatut" laboratoriolaitteet venyvät ja paukkuvat esittäjien tapellessa ilmankosteuden ja muiden eksogeenisten ongelmien kanssa. Genret vaihtelevat keliolosuhteiden mukaan mutta tasaista 4/4 jytkettä voimme luvata jossain vaiheessa keikkaa.</p>
+    <div class="artist-links">
+            <a href="#" target="_blank" rel="noreferrer noopener"></a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+        <div class="artist">
+          <h3>Masa ja Ullis</h3>
+          <img 
+            src="static/img/masa-ja-ullis.jpeg" 
+            alt="Masa ja Ullis kuva">
+          <p>Paskaa räppii Helsingin kujilta tuu kattoo ni tiiät!:)</p>
+    <div class="artist-links">
+            <a href="#" target="_blank" rel="noreferrer noopener"></a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+    <div class="artist">
+          <h3>VEKODER</h3>
+          <img 
+            src="static/img/vekoder.jpg"
+            alt="VEKODER kuva">
+          <p>Electro housea ja nykyään myös drum and bassia tekevä Helsinkiläinen konemusiikin tuottaja omanlaisella tyylillään</p>
+    <div class="artist-links">
+            <a href="https://soundcloud.com/vekoder/sanguine-memories-original-mix" target="_blank" rel="noreferrer noopener">Soundcloud</a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+    <div class="artist">
+          <h3>Poliisi</h3>
+          <img 
+            src="static/img/poliisi.jpeg"
+            alt="Poliisi kuva">
+          <p>Poliisin tehtävä on turvata yleinen järjestys ja turvallisuus. Poliisi estää ennalta rikoksia ja selvittää niitä. Poliisin keskeinen tavoite on taata turvalliset olot kaikille. <br /> <br /> 
+Arvot ovat tärkeinä pitämiämme asioita, jotka ohjaavat jokapäiväisessä työssä tehtäviä valintoja. Arvojensa mukaan poliisi on oikeudenmukainen, rohkea ja aina luotettava.</p>
+    <div class="artist-links">
+            <a href="https://www.instagram.com/poliisivirallisempi" target="_blank" rel="noreferrer noopener">Instagram</a>
+            <a href="#"target="_blank" rel="noreferrer noopener"></a>
+          </div>
+        </div>
+
+        <!-- Lisää artisteja tähän -->
+      </div>
+    </div>
+
+    <button class="scroll-btn right" aria-label="Selaa oikealle">→</button>
+  </div>
+</section>
+
+
+  <section id="location" style="position: relative; overflow: hidden;">
+  <h2>Sijaintina Viikin paska-allas</h2>
+  <p>{{ location }}</p>
+
+  <!-- Google Maps iframe -->
+  <div style="position: relative; z-index: 1;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1347.8864757105766!2d25.030884428488246!3d60.217556110892595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfi!2sfi!4v1747999812052!5m2!1sfi!2sfi"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Emoji container -->
+  <div id="poop-emojis" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;"></div>
+
+  <script>
+    function createPoopEmoji() {
+      const emoji = document.createElement('div');
+      emoji.textContent = '💩';
+      emoji.style.position = 'absolute';
+      emoji.style.left = Math.random() * 100 + '%';
+      emoji.style.bottom = '-30px';
+      emoji.style.fontSize = '50px';
+      emoji.style.opacity = '1';
+      emoji.style.animation = `floatUp ${3 + Math.random() * 2}s linear forwards`;
+      document.getElementById('poop-emojis').appendChild(emoji);
+
+      setTimeout(() => emoji.remove(), 6000); // Clean up
+    }
+
+    setInterval(createPoopEmoji, 500); // Spawn one every 0.5 sec
+  </script>
+
+  <style>
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</section>
+
+  <section id="info">
+    <h2>Tiedotusta</h2>
+    <p>
+      <a href="{{ instagram_url }}" target="_blank" rel="noreferrer noopener">Instagram</a>
+      <a href="{{ telegram_url }}" target="_blank" rel="noreferrer noopener">Telegram</a>
+    </p>
+  </section>
+
+  <section id="turva">
+    <h2>ÄLÄ OLE IDIOOTTI – Turvallisemman tilan periaatteet</h2>
+
+    <p>
+    Kunnioita toisen henkilökohtaista fyysistä ja psyykkistä tilaa. Kunnioita itsemääräämisoikeutta. Älä koske toista kysymättä lupaa. Muista, ettet voi tietää toisen rajoja kysymättä niitä. Pyydä tilaa myös itsellesi tarvittaessa.
+    Älä pilkkaa, ivaa, halvenna, sysää syrjään tai nolaa ketään puheillasi, käytökselläsi tai teoillasi. Pitäydy ulkonäön arvostelusta, juoruilusta ja stereotypioiden ylläpitämisestä.
+    Älä tee oletuksia ulkonäköön tai toimintaan perustuen. Älä tee oletuksia kenenkään seksuaalisuudesta, sukupuolesta, kansallisuudesta, etnisyydestä, uskonnosta, arvoista, sosioekonomisesta taustasta, terveydestä tai toimintakyvystä.
+    Anna tilaa. Pyri huolehtimaan siitä, että kaikilla on mahdollisuus osallistua keskusteluun. Älä jyrää muiden mielipiteitä ja anna puheenvuoro. Kunnioita myös toisten yksityisyyttä ja käsittele arkoja aiheita kunnioittavasti.
+    Kuuntele ja opi. Ota vastaan uudet aiheet, henkilöt ja näkökulmat ennakkoluulottomasti. Suhtaudu jokaiseen vastaantulevaan asiaan ja tilanteeseen mahdollisuutena oppia uutta ja kehittyä.
+    Pyydä anteeksi, jos olet loukannut tahallisesti tai tahattomasti muita.<br>
+    <br>
+    Kohtele muita, kuten haluaisit itseäsi kohdeltavan. <br>
+<br>
+    Jos huomaat jonkun käyttäytyvän asiattomasti tai muutoin rikkovan Turvallisemman tilan toimintaperiaatteita, puutu tilanteeseen. 
+    Mikäli koet tai huomaat toiminnassa tai tapahtumissa häiritsevää käytöstä, ota yhteyttä järjestäjiin.
+    </p>
+  </section>
+
+<section id="gif-line" style="display: flex; justify-content: center; flex-wrap: wrap;"></section>
+<script>
+  const gifContainer = document.getElementById("gif-line");
+  const gifSize = 50; // px
+  const screenWidth = window.innerWidth - 50; // give it some room for padding/margins
+  const gifsPerRow = Math.floor(screenWidth / gifSize);
+
+  for (let i = 0; i < gifsPerRow; i++) {
+    const gif = document.createElement("img");
+    gif.src = "static/img/paska.GIF";
+    gif.alt = "Paska gif";
+    gif.style.width = gifSize + "px";
+    gif.style.height = gifSize + "px";
+    gif.style.objectFit = "cover";
+    gifContainer.appendChild(gif);
+  }
+</script>
+
+
+  {# Optionally render extra markdown content, if any #}
+  {{ layoutContent | safe }}
+
+<div class="poop-container"></div>
+
+<script>
+  const poopContainer = document.querySelector('.poop-container');
+
+  function createPoop() {
+    const poop = document.createElement('div');
+    poop.classList.add('poop');
+    poop.textContent = '💩';
+    poop.style.left = Math.random() * window.innerWidth + 'px';
+    poop.style.animationDuration = (5 + Math.random() * 10) + 's';
+    poopContainer.appendChild(poop);
+
+    // Poista kun animaatio päättyy
+    setTimeout(() => poop.remove(), 15000);
+  }
+
+  // Luo emojit jatkuvasti hitaalla tahdilla
+  setInterval(createPoop, 800);
+</script>
+
+<script>
+// Nuolinapit scrollaukseen
+document.addEventListener('DOMContentLoaded', () => {
+  const track = document.getElementById('artistTrack');
+  const leftBtn = document.querySelector('.scroll-btn.left');
+  const rightBtn = document.querySelector('.scroll-btn.right');
+
+  if (!track || !leftBtn || !rightBtn) {
+    console.warn("Scroll-elementit eivät löytyneet");
+    return;
+  }
+
+  leftBtn.addEventListener('click', () => {
+    track.scrollBy({ left: -300, behavior: 'smooth' });
+  });
+
+  rightBtn.addEventListener('click', () => {
+    track.scrollBy({ left: 300, behavior: 'smooth' });
+  });
+
+  // Drag-to-scroll
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  track.addEventListener('mousedown', (e) => {
+    isDown = true;
+    track.classList.add('dragging');
+    startX = e.pageX - track.offsetLeft;
+    scrollLeft = track.scrollLeft;
+  });
+
+  track.addEventListener('mouseleave', () => {
+    isDown = false;
+    track.classList.remove('dragging');
+  });
+
+  track.addEventListener('mouseup', () => {
+    isDown = false;
+    track.classList.remove('dragging');
+  });
+
+  track.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - track.offsetLeft;
+    const walk = (x - startX) * 1.5;
+    track.scrollLeft = scrollLeft - walk;
+  });
+});
+</script>
+
+
+</body>
+</html>
